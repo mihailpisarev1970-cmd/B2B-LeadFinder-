@@ -36,3 +36,18 @@
             │
             ▼
 [Excel-файл: Результаты_ЛПР_YYYY-MM-DD_HH-MM.xlsx]
+
+📂 Структура репозитория
+b2b-leadfinder/
+├── config/
+│   └── settings.py          # Валидация и загрузка настроек из .env
+├── services/
+│   ├── dadata_api.py        # Асинхронный клиент к API DaData
+│   ├── extractor.py         # Парсинг текста регулярными выражениями
+│   └── parser.py            # Модуль веб-скрейпинга на Playwright
+├── .env.example             # Шаблон конфигурации окружения
+├── .gitignore               # Список исключений для Git
+├── main.py                  # Главный скрипт оркестрации и выгрузки в Excel
+├── requirements.txt         # Список внешних зависимостей
+├── sites.txt                # Список целевых веб-сайтов
+└── README.md                # Документация проекта
