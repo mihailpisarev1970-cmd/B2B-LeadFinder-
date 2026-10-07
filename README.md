@@ -51,3 +51,41 @@ b2b-leadfinder/
 ├── requirements.txt         # Список внешних зависимостей
 ├── sites.txt                # Список целевых веб-сайтов
 └── README.md                # Документация проекта
+
+🚀 Быстрый старт
+1. Клонирование репозитория
+git clone [https://github.com/ВАШ_АККАУНТ/b2b-leadfinder.git](https://github.com/ВАШ_АККАУНТ/b2b-leadfinder.git)
+cd b2b-leadfinder
+
+2. Развертывание виртуального окружения
+Windows:
+python -m venv venv
+venv\Scripts\activate
+
+Linux / macOS:
+python3 -m venv venv
+source venv/bin/activate
+
+3. Установка зависимостей и браузеров
+pip install -r requirements.txt
+playwright install chromium
+
+4. Настройка переменных окружения
+Создайте локальный файл .env на основе шаблона:
+cp .env.example .env
+
+Откройте файл .env и укажите ваш API-токен сервиса DaData:
+DADATA_TOKEN=ваш_токен_dadata
+
+🛠️ Запуск и использование
+1. Откройте файл sites.txt и внесите список ссылок (каждая строка — отдельный сайт):
+[https://example-service.ru/](https://example-service.ru/)
+koreamaster.ru
+[https://only-vag.ru](https://only-vag.ru)
+
+Запустите основной скрипт:
+python main.py
+
+По окончании обработки скрипт сгенерирует Excel-файл в корневой папке с названием вида:
+
+Результаты_ЛПР_2026-10-07_18-50.xlsx.
