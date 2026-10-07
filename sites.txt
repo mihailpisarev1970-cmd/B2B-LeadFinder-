@@ -1,14 +1,3 @@
 https://xn--80aabir3ckd.xn--p1ai/
 https://mb-auto.ru/
-https://spb.remdiski.ru
-koreamaster.ru
-https://nsservice.su/
-https://reno-max.ru/
-AutoComplex78.ru
-https://only-vag.ru
-https://pitstop-spb.ru
-https://good-avto.com/
-https://stovesta.ru
-https://кореана.рф
-https://autostolitsa.ru/
-https://1auto1.ru/
+# Тут будут находиться сайты, с которых будем парсить данные ЛПР
